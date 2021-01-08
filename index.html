@@ -1,20 +1,87 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title> Adam's Website </title>
     </head>
+
     <body>
+        <div>
+            <a href="index.html"> Home </a> &nbsp;
+            <a href="aboutme.html"> About me </a>
+        </div>
+
         <div>
             <h1> Adam's Website </h1>
             <h2> Website sederhanaku </h2>
             <p> Selamat datang di <i>website</i> sederhanaku! </p>
-            <a href="https://instagram.com/azdcazm"> Instagram saya </a>
-            <br>
-            <p> CV saya : </p>
-            <img src="/Users/aadama/Downloads/CV Ardian Adam Alfarisyi.jpg" alt="CV Adam" height="596" width="420">
         </div>
 
         <div>
+            <p> Format Text HTML : </p>
+            <ol>
+                <li><b>Bold text</b> (b) </li>
+                <li><strong>Important text</strong> (strong) </li>
+                <li><i>Italic text</i> (i) </li>
+                <li><em>Emphasized text</em> (em) </li>
+                <li><mark>Marked text</mark> (mark) </li>
+                <li><small>Smaller text</small> (small) </li>
+                <li><del>Deleted text</del> (del) </li>
+                <li><ins>Inserted text</ins> (ins) </li>
+                <li><sub>Subscript text</sub> (sub) </li>
+                <li><sup>Superscript text</sup> (sup) </li>
+            </ol>
+        </div>
+
+        <br>
+
+        <div>
+            <fieldset>
+                <legend> <b>Isilah data berikut!</b> </legend>
+                <label for="nama"> Nama </label>
+                <input type="text" placeholder="Nama anda" id="nama"> <br>
+                <label> Jenis Kelamin </label>
+                <input type="radio" name="kelamin"> Laki-laki
+                <input type="radio" name="kelamin"> Perempuan <br>
+                <label for="asalUniv"> Universitas </label>
+                <input type="text" placeholder="Asal universitas" id="asalUniv"> <br>
+                <label> Pelajaran yang Ingin Dipelajari</label>
+                <select>
+                    <optgroup label="Frontend">
+                        <option> HTML </option>
+                        <option> CSS </option>
+                    </optgroup>
+                    <optgroup label="Backend">
+                        <option> PHP </option>
+                        <option> Javascript </option>
+                    </optgroup>
+                </select> <br>
+                <label for="uraian"> Uraian tentang diri anda </label>
+                <textarea placeholder="Saya adalah orang yang... (dsb)" id="uraian" cols="35" rows="7"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </div>
+
+        <br>
+
+        <div>
+            <table border="1">
+                <caption> Tabel 1.0 </caption>
+                <tr>
+                    <th> Nama </th>
+                    <th> Asal Universitas </th>
+                </tr>
+                <tr>
+                    <td> Ardian Adam Alfarisyi </td>
+                    <td> Universitas Telkom </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- tidak disetujui oleh websitenya
+        <div>
             <iframe src="http://sekolahkoding.com"></iframe>
         </div>
+        -->
     </body>
 </html>
