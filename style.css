@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #0F5272;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logoHome{
+    line-height: 65px;
+    display: block;
+    float: left;
+    padding: 0 25px;
+    font-size: 20px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu, .logoHome{
+    padding: 0 100px;
+}
+
+.menu a{
+    display: block;
+    line-height: 65px;
+    color: white;
+    padding: 0 25px;
+    float: right;
+    transition: all 0.5s;
+    font-size: 20px;
+}
+
+.menu:link{
+    background-color: thistle;
+    color: white;
+}
+
+.menu a:hover{
+    background-color: #0d455f;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 0px;
+    font-family: fantasy;
+    font-size: 17px;
+    letter-spacing: 7px;
+}
